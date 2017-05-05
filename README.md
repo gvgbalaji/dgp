@@ -9,3 +9,5 @@ https://github.com/naanal/dgp/wiki
    - [ ] Update Useful Commands section
    - [ ] Update Frequent Problems section
    - [ ] Update Management Node to Ubunutu 16.04
+   - [X] Add Ansible PLaybooks
+   - [ ] Add Salt Commands

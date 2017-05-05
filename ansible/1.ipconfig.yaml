@@ -1,0 +1,8 @@
+- name: Check IP Config
+  hosts: "{{hosts}}"
+  tasks:
+    - name: Running IP Config Command
+      raw: ipconfig
+      register: ipconfig
+    - name: Printing IPConfig
+      debug: var=ipconfig
